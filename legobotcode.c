@@ -9,7 +9,7 @@ int main()
     mav(right, 1800); //push fireman to fire station
     mav(left, 2390);
     msleep(6400);
-    mav(right, -1000); //backs out of station
+    mav(right, -1000); //leaves out of the fire station
     mav(left, -1190);
     msleep(900); 
     mav(right, 1500); // turns to face the black and silver tape
@@ -17,7 +17,7 @@ int main()
     msleep(1200);
     mav(right, 4500); // drive toward the black ans silver tape
     mav(left, 4680);
-    msleep(5000);
+    msleep(5500);
     mav(right, 1500); // lines up with the tape
     mav(left, -1610);
     msleep(1000);
